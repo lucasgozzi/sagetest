@@ -4,6 +4,7 @@
 /node_modules
 /bin
 /obj
+/.vscode
 /.pnp
 .pnp.js
 
