@@ -9,10 +9,16 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 
 export default function StatusDialog(props) {
     const [open, setOpen] = React.useState(true);
-    const { resetSuccess } = props;
+    const {name, okFunction, cancelFunction} = props;
+
     const handleClose = () => {
         setOpen(false);
-        resetSuccess(false);
+        cancelFunction();
+    };
+
+    const handleOk = () => {
+        okFunction();
+        setOpen(false);
     };
 
     return (
@@ -23,15 +29,18 @@ export default function StatusDialog(props) {
                 aria-labelledby="alert-dialog-title"
                 aria-describedby="alert-dialog-description"
             >
-                <DialogTitle id="alert-dialog-title">Status da operação</DialogTitle>
+                <DialogTitle id="alert-dialog-title">Deletar pessoa</DialogTitle>
                 <DialogContent>
                     <DialogContentText id="alert-dialog-description">
-                        Sua operação foi concluída com sucesso!
+                       Você deseja realmente deletar {name}?
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={handleClose} color="primary" autoFocus>
+                    <Button onClick={handleOk} color="primary" autoFocus>
                         Ok
+                    </Button>
+                    <Button onClick={handleClose} color="secondary" autoFocus>
+                        Cancelar
                     </Button>
                 </DialogActions>
             </Dialog>

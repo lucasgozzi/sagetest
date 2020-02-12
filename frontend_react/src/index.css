@@ -42,8 +42,12 @@ a {
   text-decoration: none;
 }
 
-.MuiButton-label {
+nav .MuiButton-label {
   color: #c2e7d9;
+  text-decoration-style: none;
+}
+table .MuiButton-label {
+  color: #000;
   text-decoration-style: none;
 }
 
