@@ -1,0 +1,9 @@
+C:\app\build\Services.deps.json
+C:\app\build\Services.dll
+C:\app\build\Services.pdb
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Services\obj\Release\netcoreapp2.1\Services.csprojAssemblyReference.cache
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Services\obj\Release\netcoreapp2.1\Services.AssemblyInfoInputs.cache
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Services\obj\Release\netcoreapp2.1\Services.AssemblyInfo.cs
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Services\obj\Release\netcoreapp2.1\Services.csproj.CopyComplete
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Services\obj\Release\netcoreapp2.1\Services.dll
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Services\obj\Release\netcoreapp2.1\Services.pdb

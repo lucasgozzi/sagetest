@@ -1,0 +1,8 @@
+C:\app\build\Domain.deps.json
+C:\app\build\Domain.dll
+C:\app\build\Domain.pdb
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Domain\obj\Release\netcoreapp2.1\Domain.csprojAssemblyReference.cache
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Domain\obj\Release\netcoreapp2.1\Domain.AssemblyInfoInputs.cache
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Domain\obj\Release\netcoreapp2.1\Domain.AssemblyInfo.cs
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Domain\obj\Release\netcoreapp2.1\Domain.dll
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Domain\obj\Release\netcoreapp2.1\Domain.pdb

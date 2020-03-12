@@ -1,0 +1,11 @@
+C:\app\build\Repository.deps.json
+C:\app\build\Repository.runtimeconfig.json
+C:\app\build\Repository.runtimeconfig.dev.json
+C:\app\build\Repository.dll
+C:\app\build\Repository.pdb
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Repository\obj\Release\netcoreapp2.1\Repository.csprojAssemblyReference.cache
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Repository\obj\Release\netcoreapp2.1\Repository.AssemblyInfoInputs.cache
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Repository\obj\Release\netcoreapp2.1\Repository.AssemblyInfo.cs
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Repository\obj\Release\netcoreapp2.1\Repository.csproj.CopyComplete
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Repository\obj\Release\netcoreapp2.1\Repository.dll
+C:\Users\lucas.gozzi\Documents\Projetos\sagetest\backend\Repository\obj\Release\netcoreapp2.1\Repository.pdb
