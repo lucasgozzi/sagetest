@@ -35,7 +35,7 @@ namespace Api.Controllers.Exemplo
             {
                 return StatusCode(400, new ErrorDto(e.Message));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Erro desconhecido
                 return StatusCode(500, new ErrorDto("Ocorreu um erro desconhecido na operação"));
@@ -54,7 +54,7 @@ namespace Api.Controllers.Exemplo
             {
                 return StatusCode(400, new ErrorDto(e.Message));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Erro desconhecido
                 return StatusCode(500, new ErrorDto("Ocorreu um erro desconhecido na operação"));
@@ -77,7 +77,7 @@ namespace Api.Controllers.Exemplo
             {
                 return StatusCode(400, new ErrorDto(e.Message));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Erro desconhecido
                 return StatusCode(500, new ErrorDto("Ocorreu um erro desconhecido na operação"));
@@ -96,7 +96,7 @@ namespace Api.Controllers.Exemplo
             {
                 return StatusCode(400, new ErrorDto(e.Message));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Erro desconhecido
                 return StatusCode(500, new ErrorDto("Ocorreu um erro desconhecido na operação"));
@@ -115,7 +115,7 @@ namespace Api.Controllers.Exemplo
             {
                 return StatusCode(400, new ErrorDto(e.Message));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Erro desconhecido
                 return StatusCode(500, new ErrorDto("Ocorreu um erro desconhecido na operação"));
