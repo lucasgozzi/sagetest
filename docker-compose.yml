@@ -4,7 +4,7 @@ services:
   api:
     build:
       context: .
-      dockerfile: backend/Api/Dockerfile
+      dockerfile: backend/Dockerfile
     ports:
       - 5000
       - 5001
