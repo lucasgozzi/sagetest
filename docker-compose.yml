@@ -3,8 +3,8 @@ version: '3.4'
 services:
   api:
     build:
-      context: .
-      dockerfile: backend/Dockerfile
+      context: ./backend
+      dockerfile: Dockerfile
     ports:
       - 5000
       - 5001
@@ -12,8 +12,8 @@ services:
       - db
   web:
     build: 
-      context: .
-      dockerfile: frontend_react/Dockerfile
+      context: ./frontend_react
+      dockerfile: Dockerfile
     ports:
       - 3000
     depends_on:
