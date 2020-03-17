@@ -7,6 +7,5 @@ RUN dotnet restore "./Api/Api.csproj"
 RUN dotnet build "Api/Api.csproj" -c Release -o /app/build
 RUN dotnet publish "Api/Api.csproj" -c Release -o /app/publish
 EXPOSE 5000
-EXPOSE 5001
 WORKDIR /app/publish
 ENTRYPOINT ["dotnet", "Api.dll"]

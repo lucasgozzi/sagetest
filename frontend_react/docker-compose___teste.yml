@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  start_dependencies:
+    image: "dadarek/wait-for-dependencies"
+    depends_on: 
+      - sql-server
+      - web
+    command: sql-server:1433 api:5000 web:3000
+  sql-server:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      SA_PASSWORD: "Teste@123"
+      ACCEPT_EULA: "Y"
+    ports: 
+      - "1433:1433"
+  web:
+    build: .
+    ports:
+      - "3000:3000"

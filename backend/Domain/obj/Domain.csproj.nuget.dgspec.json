@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas.gozzi\\Documents\\Projetos\\sagetest\\backend\\Domain\\Domain.csproj": {}
+    "/var/www/backend/Domain/Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas.gozzi\\Documents\\Projetos\\sagetest\\backend\\Domain\\Domain.csproj": {
+    "/var/www/backend/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.gozzi\\Documents\\Projetos\\sagetest\\backend\\Domain\\Domain.csproj",
+        "projectUniqueName": "/var/www/backend/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\lucas.gozzi\\Documents\\Projetos\\sagetest\\backend\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\lucas.gozzi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.gozzi\\Documents\\Projetos\\sagetest\\backend\\Domain\\obj\\",
+        "projectPath": "/var/www/backend/Domain/Domain.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/var/www/backend/Domain/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lucas.gozzi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -60,16 +63,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
