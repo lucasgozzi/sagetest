@@ -2,4 +2,4 @@
 
 docker-compose up
 
-acessar http://localhost:3001/
+acessar http://localhost:3000/
