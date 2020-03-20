@@ -4,10 +4,10 @@ services:
   api:
     image: api
     build:
-      context: .
-      dockerfile: Api/Dockerfile
+      context: ./backend
+      dockerfile: Dockerfile
     ports:
-      - 80
+      - 5000:80
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:80
